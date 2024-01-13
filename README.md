@@ -19,7 +19,7 @@ A minimalist example template for an ES6 library built with vanilla JS, and an a
     <div id="app"></div>
 </body>
 ```
-4. Create a `library.js` file (`calculator.js` in this example) in the root of the directory. There may be multiple such library files, and can also be placed within a directory structure. 
+4. Create a `library.js` file in the root of the directory. There may be multiple such library files, and can also be placed within a directory structure. 
 5. Create `index.js` file to import all the ES6 modules from the library files and export them as a single module. This is the entry point of the library.
 6. Create `app.js` in the root of the directory. This is the entry point of the web app. Import `index.js` (either locally or through a CDN where it is hosted) into `app.js` and use the exported functions to render the app.
 ```javascript
