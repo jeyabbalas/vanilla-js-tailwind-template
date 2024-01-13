@@ -35,3 +35,4 @@ import { test } from './index.js';
 
 ## Step 3: Deploy in GitHub Pages
 1. On GitHub, navigate to the site's repository. Settings > Pages > Build and deployment > Source > select `Deploy from a branch`. Then Branch > select `main` branch and `/root` folder > Save.
+2. The website is live at `https://<username>.github.io/<repository-name>/`.
