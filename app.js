@@ -1,4 +1,4 @@
-import { test } from '/index.js';
+import { test } from './index.js';
 
 function ui(divID) {
     let divUI = divID ? document.getElementById(divID) : document.createElement('div');

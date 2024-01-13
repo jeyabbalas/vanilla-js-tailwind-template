@@ -23,7 +23,7 @@ A minimalist example template for an ES6 library built with vanilla JS, and an a
 5. Create `index.js` file to import all the ES6 modules from the library files and export them as a single module. This is the entry point of the library.
 6. Create `app.js` in the root of the directory. This is the entry point of the web app. Import `index.js` (either locally or through a CDN where it is hosted) into `app.js` and use the exported functions to render the app.
 ```javascript
-import { test } from '/index.js';
+import { test } from './index.js';
 ```
 7. Load `app.js` in the `<body>` of the `index.html` file.
 ```html
@@ -32,3 +32,6 @@ import { test } from '/index.js';
     <script src="app.js"></script>
 </body>
 ```
+
+## Step 3: Deploy in GitHub Pages
+1. On GitHub, navigate to the site's repository. Settings > Pages > Build and deployment > Source > select `Deploy from a branch`. Then Branch > select `main` branch and `/root` folder > Save.
